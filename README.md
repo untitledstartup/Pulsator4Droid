@@ -12,7 +12,7 @@ Pulse animation for Android.
 ```bash
 ./gradlew :pulsator4droid:assemble
 ```
-Generated aar file will be in `pulsator4droid/build/outputs/aar/` folder, copy it to your project's app/libs folder.
+Generated aar file will be in `pulsator4droid/build/outputs/aar/pulsator4droid-release.aar` folder, copy it to your project's app/libs folder.
 Then add:
 ```aidl
 implementation fileTree(include: ['*.aar'], dir: 'libs')
